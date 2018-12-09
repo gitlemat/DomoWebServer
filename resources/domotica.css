@@ -1,0 +1,556 @@
+body {
+  color: #b7c0c7;
+  background: #222729;
+}
+
+div {
+  font-family: DomoHelvFontSlim;
+}
+
+
+a:link {
+  color: #b7c0c7;
+}
+
+a:visited {
+  color: #b7c0c7;
+}
+a:hover {
+  color: #b7d0d7;
+}
+a:active {
+  color: #c7c0c7;
+}
+
+[class="ui-datepicker-trigger"]{
+  width: 12px;
+  padding-bottom: 5px;
+}
+
+.inputCalendar{
+  cursor: pointer;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+  border-width: 0px;
+  width: 70px;
+  background-color: inherit;
+  text-align: right;
+}
+
+.inputDevice{
+  cursor: pointer;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+  border-width: 0px;
+  background-color: #151515;
+  color: inherit;
+  
+  text-align: left;
+}
+
+
+.inputDevice:hover{
+  color:inherit;
+  background-color: #151515;
+}
+
+.inputDevice:active{
+  color:inherit;
+  background-color: #151515;
+}
+
+@font-face {
+  font-family: "airzone";
+  src: url("airzone.eot");
+  src: url("airzone.eot?#iefix") format("embedded-opentype"),
+  url("airzone.woff") format("woff"),
+  url("airzone.ttf") format("truetype"),
+  url("airzone.svg#airzone") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: DomoHelvFont;
+  src: url(HelveticaNeueLTStd-LtCn.otf);
+}
+
+@font-face {
+  font-family: DomoHelvFontSlim;
+  src: url(HelveticaNeueLTStd-UltLtCn.otf);
+}
+
+@font-face {
+  font-family: DomoHelvFont;
+  src: url(HelveticaNeueLTStd-Cn.otf);
+  font-weight: bold;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: "airzone";
+  font-style: normal;
+
+}
+
+.icon-format{
+  border-width: 0px;
+  background-color: inherit;
+}
+
+.icon-color-on{
+  color: deepskyblue;
+}
+
+.icon-color-off{
+  color: #b7c0c7;
+}
+
+.icon-init-size {
+  font-size: 16px;
+}
+
+.icon-deafult-size {
+  font-size: 12px;
+}
+
+.icon-size-20 {
+  font-size: 20px;
+}
+
+.icon-size-23 {
+  font-size: 23px;
+}
+
+.icon-size-24 {
+  font-size: 24px;
+}   
+
+.icon-size-32 {
+  font-size: 32px;
+} 
+
+.icon-paddingtop-5 {
+  padding-top: 5px;
+} 
+
+.icon-marginleft-5 {
+  margin-left: 5px;
+} 
+
+.icon-margintop-5 {
+    margin-top: 5px;
+} 
+
+
+.icon-marginright-10 {
+    margin-right: 10px;
+} 
+
+.icon-marginbottom-5 {
+    margin-bottom: 5px;
+} 
+
+.text-consigna {
+  font-family: DomoHelvFontSlim;
+  font-size: 24px;
+  text-align: center;
+}
+
+.text-consigna-2 {
+  font-family: DomoHelvFontSlim;
+  font-size: 24px;
+  text-align: center;
+}
+    
+.text-consigna-48 {
+  font-family: DomoHelvFontSlim;
+  font-size: 48px;
+  text-align: center;
+  max-width: 150px;
+}
+
+.text-size-16 {
+  font-size: 16px;
+}
+
+.text-titulo {
+  font-family: DomoHelvFontSlim;
+  font-size: 42px;
+  text-align: center;
+}
+
+.text-planta {
+  font-family: DomoHelvFontSlim;
+  font-size: 32px;
+  text-align: left;
+}
+
+.text-planta_24 {
+  font-family: DomoHelvFontSlim;
+  font-size: 24px;
+  text-align: left;
+}
+    
+.text-left {
+  text-align:left;
+  float:left;
+}
+
+.text-right {
+  text-align:right;
+  float:right;
+}
+
+.text-center {
+  text-align:center;
+  float:center;
+}
+
+.text-align-right {
+  text-align:right;
+}
+
+.text-button {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.text-mini1 {
+  font-size: 14px;
+  margin-right: 4px;
+  margin-top: 10px;
+}
+
+.text-mini2 {
+  font-size: 20px;
+  margin-right: 4px;
+  margin-top: 10px;
+}
+
+.text-mini3 {
+  font-size: 14px;
+  margin-right: 4px;
+  margin-top: 0px;
+}
+
+row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row-int-nomargin {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.row_interna {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.padding-right-20 {
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.panel-icono {
+  max-width: 330px;
+  background: #222729;
+}
+
+.panel-icono-sel {
+  max-width: 330px;
+  background: #636363;
+}
+    
+.panel-normal {
+  max-width: 330px;
+  margin-right: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  background: #373e45;
+}
+
+.panel-consigna {
+  max-width: 330px;
+  margin-right: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background: #373e45;
+}
+
+.well-domotica {
+  border: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-height: 40px;
+  max-height: 40px;
+  font-size: 25px;
+}
+
+.well-room {
+  border: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.well-prog-air{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.well-program{
+  border: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: -5px;
+  #font-size: 25px;
+}
+
+.well-grad-temp-ok{
+  background: linear-gradient(to right, #222729 , #222729 70%, #008000); /* Standard syntax (must be last) */
+}
+.well-grad-temp-cold{
+  background: linear-gradient(to right, #222729 , #222729 70%, #0041d8); /* Standard syntax (must be last) */
+}
+.well-grad-temp-hot{
+  background: linear-gradient(to right, #222729 , #222729 70%, #800000); /* Standard syntax (must be last) */
+}
+.well-color-gen{
+  background: #222729;
+}
+
+.alarma-sevNo-color{
+  background: #373e45;
+}
+
+.alarma-sev1-color{
+  background: #6d2727;
+}
+
+.alarma-sev2-color{
+  background: #8a5930;
+}
+
+.alarma-sev3-color{
+  background: #675c29;
+}
+
+.button-consigna {
+  background-color: #373e45;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 54px;
+  cursor: pointer;
+}
+
+.button-gen{
+  cursor: pointer;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  border-width: 0px;
+  background-color: inherit;
+}
+
+[class^="button-"]:active {
+  background: #b7c0c7;   
+}
+
+.button-icon{
+  cursor: pointer;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  border-width: 0px;
+  background-color: inherit;
+}
+
+.button-blind1{
+  cursor: pointer;
+}
+
+button-blind1:active {
+  background: green;   
+}
+    
+.consigna-center {
+  width: 100%;
+  text-align: center;
+}
+
+.fixed-el {
+  max-width: 21px;
+  max-height: 21px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+
+.fixed-el-svg {
+  border-radius: 5px;
+  background: #222729;
+  max-width: 34px;
+  max-height: 37px;
+  padding-top: 5px;
+  padding-bottom	: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fixed-el-icon {
+  max-width: 75px;
+  max-height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
+.fixed-el-icon_maquina {
+  border-radius: 5px;
+  background: #222729;
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+
+}
+
+
+.fixed-el-icon_monitor2 {
+  max-width: 16px;
+  max-height: 16px;
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+
+.fixed-el-icon_monitor {
+  max-width: 15px;
+  max-height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+    
+.fixed-el-icon-right-small {
+  max-width: 25px;
+  max-height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+
+}
+
+.fixed-el-icon-right-small2 {
+  max-width: 25px;
+  max-height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  margin-top: 9px;
+}
+
+[class^="fixed-el-icon-right-small"]:active {
+  background: #b7c0c7;   
+}
+
+.fixed-el-icon-left-small {
+  max-width: 20px;
+  max-height: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.modal-dialog-0 {
+    background-color: #1c1f23;
+    top: 150px;
+    width: 70%;
+    left: 15%;
+}
+
+.modal-dialog-1 {
+    background-color: #1c1f23;
+    top: 400px;
+    width: 70%;
+    left: 15%;
+}
+
+.modal-dialog-devices {
+    background-color: #1c1f23;
+    top: 50px;
+    width: 80%;
+    left: 10%;
+}
+
+
+.font-modal-dialog {
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+
+
+.obj-oculto {
+  display: none;
+}
+
+.obj-oculto-2 {
+  visibility: hidden;
+}
+
+.apagado {
+  color: #555;
+}
+
+.encendido{
+  color: #b7c0c7;
+} 
+
+.not-active-link {
+  pointer-events: none;
+  cursor: default;
+}
